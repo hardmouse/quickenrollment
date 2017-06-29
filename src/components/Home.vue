@@ -1,4 +1,5 @@
 <template>
+<div>
   <div class="homeContainer vertical-center">
     <!--<div class="bkImage vertical-center" :class="this.$parent.currentHomeBackground[this.$parent.hpNum]">-->
       <transition name="fade">
@@ -15,14 +16,45 @@
           <transition name="slide-fade">
             <p v-html="quoteText[this.$parent.hpNum]" class="quoteBodyText" v-if="this.$parent.homeTextShow"></p>
           </transition>
-
           <!--<button type="button" class="btn btn-primary col-sm-2" @click.stop="onClick('abc')">START</button>-->
           <!--<button type="button" class="btn btn-warning col-sm-2" @click.stop="onColorClick('abc')">Background</button>-->
           <!--<button type="button" class="btn btn-success col-sm-2" @click.stop="onBcClick()">TEXT</button>-->
         </div><span v-for="(url,key) in homeImage"><img :src="url" width="0"></span>
       </div>
   </div>
+  <div class="container contentBody">
+    <div class="row">
+      <div class="col-5">
+        <img src="../assets/sport3.jpg" class="img-responsive img-rounded">
+      </div>
+      <div class="col-7 supportContent">
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-7 supportContent">
+        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      </div>
+      <div class="col-5">
+        <img src="../assets/sport4.jpg" class="img-responsive img-rounded">
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-5">
+        <img src="../assets/sport5.jpg" class="img-responsive img-rounded">
+      </div>
+      <div class="col-7 supportContent">
+        Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+      </div>
+    </div>
+    
+  </div>
+</div>
+  
 </template>
+  
 
 <script>
 export default {
@@ -105,6 +137,24 @@ export default {
   font-size: 3.5vw;
   /*font-size: 3.3vw;*/
   letter-spacing: 0px;
+}
+.contentBody{
+  margin-top:30px;
+  margin-bottom:30px;
+	font-family:'gothic', Arial, sans-serif;
+  text-align:left;
+  
+}
+.supportContent{
+  margin-top:30px;
+  margin-bottom:30px;
+  border: 10px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 200px;
+  resize: vertical;
+  overflow: auto;
 }
 .quoteBodyText{
   margin-left: 15px;

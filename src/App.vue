@@ -23,14 +23,15 @@
       <transition name="bounce">
           <div class="loginBox" v-if="loginShow">
             <img src="./assets/Delete.png" class="loginClose" @click="loginShow = !loginShow">
-            <form class="form">
+            <form class="form" :action="selected">
             <div class="form-group">
                 <label for="keyword">Quick Word:</label>
-                <b-form-input v-model="qWord" type="text" placeholder="Enter quick word" :state="qWord.length?'success':'warning'" :formatter="format"></b-form-input>
+                <!--<b-form-input v-model="qWord" type="text" placeholder="Enter quick word" :state="qWord.length?'success':'warning'" :formatter="format"></b-form-input>-->
                 <!--<input type="email" class="form-control" id="email">-->
+                <b-form-input type="text" name="org_keyword"></b-form-input>
             </div>
             <div class="form-group">
-                <label for="pwd">Event Type:</label>
+                <label for="eType">Event Type:</label>
                 <b-form-select v-model="selected" 
                    :options="options"
                    calss="mb-3"></b-form-select>
@@ -133,15 +134,15 @@ export default {
       },
       {
         text: 'Leagues',
-        value: 'leagues'
+        value: 'https://www.quickenrollment.com/qerms_league/league/prelogin.aspx?EmailHelp=Yes'
       },
       {
         text: 'Tournaments',
-        value: 'tournaments'
+        value: 'https://www.quickenrollment.com/qe_client_member_secure/qeSearch/qeTournaments/client_member_locations.asp'
       },
       {
         text: 'Events',
-        value: 'events'
+        value: 'https://www.quickenrollment.com/qe_client_member/qeSearch/event_locations.asp'
       },
       // {
       //   text: 'Affiliation',
@@ -432,7 +433,7 @@ img {
   height: auto;
 }
 .img-rounded {
-  border-radius: 6px;
+  border-radius: 12px;
 }
 .img-thumbnail {
   display: inline-block;

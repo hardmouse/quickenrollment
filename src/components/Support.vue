@@ -6,10 +6,9 @@
             <div class="container"><div class="headerfont">{{title}}</div></div>
           </div>
           <div class="container bodyContainer">
-            <div class="col-xs-12 bodyText bodytext">
-              <p>
-          <div class="titleText">FAQ style 1:</div>
-<!--<pre>{{ this.faqlist.faq.list}}</pre>-->
+            <div class="col-xs-12 bodyText bodytext faqArea">
+            
+          <div class="titleText">FAQ part 1:</div>
 
 <ul class="faqListStyle">
   <li v-for="(sas, mykey) in this.faqlist.faq.list">
@@ -21,7 +20,18 @@
   </li>
 </ul>
 
-<div class="titleText">FAQ style 2:</div>
+<div class="titleText">FAQ part 2:</div>
+<ul class="faqListStyle">
+  <li v-for="(sas, mykey) in this.faqlist2.faq.list">
+    <div v-html="sas.que[0]" class="queSty" @click="onExpandFAQ2(mykey)"></div>
+    <transition name="slide-fade-up">
+		<div v-html="sas.ans[0]" class="ansSty" v-if="currentIndex2===mykey"></div>
+    </transition>
+	<div style=height:5px;></div>
+  </li>
+</ul>
+
+<!--<div class="titleText">FAQ style 2:</div>
 <ul class="faqListStyle">
   <li v-for="(sas, mykey) in this.faqlist2.faq.list">
 	<div class="row">
@@ -30,12 +40,12 @@
 	<div class="col-12"><hr></div>
 	</div>
   </li>
-</ul>
+</ul>-->
 
-              </p>
             </div>
         </div>
       </div>
+<img class="bg" src="../assets/longImage.jpeg" />
 </div>
 </template>
 
@@ -90,6 +100,14 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.faqArea{
+	margin-bottom:120px;
+}
+.bg
+{
+  width: 100%;
+  z-index: 0;
+}
 .faqListStyle{
 	list-style-type: none;
 }
