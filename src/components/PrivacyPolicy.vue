@@ -6,79 +6,76 @@
             <div class="container"><div class="headerfont">{{title}}</div></div>
           </div>
           <div class="container bodyContainer psi">
-<h5>Terms and Conditions</h5>
-<br><br>
-<h5>General Site Usage</h5>
-<p>
-Last Revised: December 16, 2016</p>
-<p>
-Welcome to www.lorem-ipsum.info. This site is provided as a service to our visitors and may be used for informational purposes only. Because the Terms and Conditions contain legal obligations, please read them carefully.</p>
-<br><br>
-1. YOUR AGREEMENT
-<br><br>
-By using this Site, you agree to be bound by, and to comply with, these Terms and Conditions. If you do not agree to these Terms and Conditions, please do not use this site.
-<br><br>
-    PLEASE NOTE: We reserve the right, at our sole discretion, to change, modify or otherwise alter these Terms and Conditions at any time. Unless otherwise indicated, amendments will become effective immediately. Please review these Terms and Conditions periodically. Your continued use of the Site following the posting of changes and/or modifications will constitute your acceptance of the revised Terms and Conditions and the reasonableness of these standards for notice of changes. For your information, this page was last updated as of the date at the top of these terms and conditions.
-<br><br><br>
-2. PRIVACY
-<br><br>
-Please review our Privacy Policy, which also governs your visit to this Site, to understand our practices.
-<br><br><br>
-3. LINKED SITES
-<br><br>
-This Site may contain links to other independent third-party Web sites ("Linked Sites”). These Linked Sites are provided solely as a convenience to our visitors. Such Linked Sites are not under our control, and we are not responsible for and does not endorse the content of such Linked Sites, including any information or materials contained on such Linked Sites. You will need to make your own independent judgment regarding your interaction with these Linked Sites.
-<br><br><br>
-4. FORWARD LOOKING STATEMENTS
-<br><br>
-All materials reproduced on this site speak as of the original date of publication or filing. The fact that a document is available on this site does not mean that the information contained in such document has not been modified or superseded by events or by a subsequent document or filing. We have no duty or policy to update any information or statements contained on this site and, therefore, such information or statements should not be relied upon as being current as of the date you access this site.
-<br><br><br>
-5. DISCLAIMER OF WARRANTIES AND LIMITATION OF LIABILITY
-<br><br>
-A. THIS SITE MAY CONTAIN INACCURACIES AND TYPOGRAPHICAL ERRORS. WE DOES NOT WARRANT THE ACCURACY OR COMPLETENESS OF THE MATERIALS OR THE RELIABILITY OF ANY ADVICE, OPINION, STATEMENT OR OTHER INFORMATION DISPLAYED OR DISTRIBUTED THROUGH THE SITE. YOU EXPRESSLY UNDERSTAND AND AGREE THAT: (i) YOUR USE OF THE SITE, INCLUDING ANY RELIANCE ON ANY SUCH OPINION, ADVICE, STATEMENT, MEMORANDUM, OR INFORMATION CONTAINED HEREIN, SHALL BE AT YOUR SOLE RISK; (ii) THE SITE IS PROVIDED ON AN "AS IS" AND "AS AVAILABLE" BASIS; (iii) EXCEPT AS EXPRESSLY PROVIDED HEREIN WE DISCLAIM ALL WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, WORKMANLIKE EFFORT, TITLE AND NON-INFRINGEMENT; (iv) WE MAKE NO WARRANTY WITH RESPECT TO THE RESULTS THAT MAY BE OBTAINED FROM THIS SITE, THE PRODUCTS OR SERVICES ADVERTISED OR OFFERED OR MERCHANTS INVOLVED; (v) ANY MATERIAL DOWNLOADED OR OTHERWISE OBTAINED THROUGH THE USE OF THE SITE IS DONE AT YOUR OWN DISCRETION AND RISK; and (vi) YOU WILL BE SOLELY RESPONSIBLE FOR ANY DAMAGE TO YOUR COMPUTER SYSTEM OR FOR ANY LOSS OF DATA THAT RESULTS FROM THE DOWNLOAD OF ANY SUCH MATERIAL.
-<br><br>
-B. YOU UNDERSTAND AND AGREE THAT UNDER NO CIRCUMSTANCES, INCLUDING, BUT NOT LIMITED TO, NEGLIGENCE, SHALL WE BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, PUNITIVE OR CONSEQUENTIAL DAMAGES THAT RESULT FROM THE USE OF, OR THE INABILITY TO USE, ANY OF OUR SITES OR MATERIALS OR FUNCTIONS ON ANY SUCH SITE, EVEN IF WE HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. THE FOREGOING LIMITATIONS SHALL APPLY NOTWITHSTANDING ANY FAILURE OF ESSENTIAL PURPOSE OF ANY LIMITED REMEDY.
-<br><br><br>
-6. EXCLUSIONS AND LIMITATIONS
-<br><br>
-SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF CERTAIN WARRANTIES OR THE LIMITATION OR EXCLUSION OF LIABILITY FOR INCIDENTAL OR CONSEQUENTIAL DAMAGES. ACCORDINGLY, OUR LIABILITY IN SUCH JURISDICTION SHALL BE LIMITED TO THE MAXIMUM EXTENT PERMITTED BY LAW.
-<br><br><br>
-7. OUR PROPRIETARY RIGHTS
-<br><br>
-This Site and all its Contents are intended solely for personal, non-commercial use. Except as expressly provided, nothing within the Site shall be construed as conferring any license under our or any third party's intellectual property rights, whether by estoppel, implication, waiver, or otherwise. Without limiting the generality of the foregoing, you acknowledge and agree that all content available through and used to operate the Site and its services is protected by copyright, trademark, patent, or other proprietary rights. You agree not to: (a) modify, alter, or deface any of the trademarks, service marks, trade dress (collectively "Trademarks") or other intellectual property made available by us in connection with the Site; (b) hold yourself out as in any way sponsored by, affiliated with, or endorsed by us, or any of our affiliates or service providers; (c) use any of the Trademarks or other content accessible through the Site for any purpose other than the purpose for which we have made it available to you; (d) defame or disparage us, our Trademarks, or any aspect of the Site; and (e) adapt, translate, modify, decompile, disassemble, or reverse engineer the Site or any software or programs used in connection with it or its products and services.
-<br><br>
-The framing, mirroring, scraping or data mining of the Site or any of its content in any form and by any method is expressly prohibited.
-<br><br><br>
-8. INDEMNITY
-<br><br>
-By using the Site web sites you agree to indemnify us and affiliated entities (collectively "Indemnities") and hold them harmless from any and all claims and expenses, including (without limitation) attorney's fees, arising from your use of the Site web sites, your use of the Products and Services, or your submission of ideas and/or related materials to us or from any person's use of any ID, membership or password you maintain with any portion of the Site, regardless of whether such use is authorized by you.
-<br><br><br>
-9. COPYRIGHT AND TRADEMARK NOTICE
-<br><br>
-Except our generated dummy copy, which is free to use for private and commercial use, all other text is copyrighted. generator.lorem-ipsum.info © 2013, all rights reserved
-<br><br><br>
-10. INTELLECTUAL PROPERTY INFRINGEMENT CLAIMS
-<br><br>
-It is our policy to respond expeditiously to claims of intellectual property infringement. We will promptly process and investigate notices of alleged infringement and will take appropriate actions under the Digital Millennium Copyright Act ("DMCA") and other applicable intellectual property laws. Notices of claimed infringement should be directed to:
-<br><br>
-generator.lorem-ipsum.info
-<br><br>
-126 Electricov St.
-<br><br>
-Kiev, Kiev 04176
-<br><br>
-Ukraine
-<br><br>
-contact@lorem-ipsum.info
-<br><br><br>
-11. PLACE OF PERFORMANCE
-<br><br>
-This Site is controlled, operated and administered by us from our office in Kiev, Ukraine. We make no representation that materials at this site are appropriate or available for use at other locations outside of the Ukraine and access to them from territories where their contents are illegal is prohibited. If you access this Site from a location outside of the Ukraine, you are responsible for compliance with all local laws.
-<br><br><br>
-12. GENERAL
-<br><br>
-A. If any provision of these Terms and Conditions is held to be invalid or unenforceable, the provision shall be removed (or interpreted, if possible, in a manner as to be enforceable), and the remaining provisions shall be enforced. Headings are for reference purposes only and in no way define, limit, construe or describe the scope or extent of such section. Our failure to act with respect to a breach by you or others does not waive our right to act with respect to subsequent or similar breaches. These Terms and Conditions set forth the entire understanding and agreement between us with respect to the subject matter contained herein and supersede any other agreement, proposals and communications, written or oral, between our representatives and you with respect to the subject matter hereof, including any terms and conditions on any of customer's documents or purchase orders.
-<br><br>
-B. No Joint Venture, No Derogation of Rights. You agree that no joint venture, partnership, employment, or agency relationship exists between you and us as a result of these Terms and Conditions or your use of the Site. Our performance of these Terms and Conditions is subject to existing laws and legal process, and nothing contained herein is in derogation of our right to comply with governmental, court and law enforcement requests or requirements relating to your use of the Site or information provided to or gathered by us with respect to such use.
+              <p>
+                    Using the QuickEnrollment System is absolutely safe. QuickEnrollment secures your personal information from any unauthorized use. We secure your personal data such as credit card numbers, names and phone numbers by protecting it through the use of the industry standard 128-bit Encryption using Secure Socket Layer (SSL) protocol.
+                    <br><br>
+                    QuickEnrollment has partnered with Entrust to provide our customers with the highest levels of security available.
+                    <br><br>
+                    <img src="../assets/footerImages/ecs_seal.gif"> <strong>Entrust</strong>
+                    <ul>
+                        <li>Entrust is securing the Internet by delivering enhanced Internet security services that provide identification, entitlements, verification, privacy, and security management capabilities. Entrust's innovative and proven enhanced Internet security services enable businesses and governments worldwide to conduct trusted online transactions.</li>
+                        <li>The Entrust Secured Site-Seal is licensed to Web sites that use Entrust digital certificates to enable the Secure Sockets Layer (SSL) protocol to secure communications between Web browsers and the Web site.</li>
+                    </ul>
+                    The organization that you are a member of, specifically those responsible for managing registration and QuickEnrollment are the only parties that may gain access to your personal information. QuickEnrollment does not sell, trade, or rent your personal information to any third parties. Registrant information is NOT SOLD TO ANYONE. Only your association and QuickEnrollment are privy to access your information for business purposes only. 
+              </p>
+              <br>
+            <h5><strong>Terms of Service</strong></h5>
+              <br>
+            <h5>TERMS OF USE</h5>
+            <ol>
+            <li><strong>Terms</strong>
+                <p>
+                By accessing www.quickenrollment.com and any sub-directories and files contained within (the "Web Site"), you, the user, are agreeing to be bound by these Terms of Use, and by all applicable laws and regulations, and you agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, do not use this site. Any claim relating to the Web Site shall be governed by the laws of the Province of Ontario without regard to its conflict of law provisions.
+                </p>
+            </li>
+            <li><strong>Trademarks And Copyrights</strong>
+                <p>
+                QuickEnrollment Inc. owns and operates the Web Site. QuickEnrollment and related words, domain names and logos are trademarks and the property of QuickEnrollment Inc. All other trademarks, product names and company names or logos cited herein are the property of their respective owners.
+                <br><br>
+                The material contained on the Web Site, including, without limitation, content, site design, text, graphics, and the selection and arrangement thereof are Copyright © QuickEnrollment Inc. ALL RIGHTS RESERVED.
+                <br><br>
+                No material from the Web Site or any web site owned, operated, licensed or controlled by QuickEnrollment Inc. or its licensors, may be copied, reproduced, republished, posted, transmitted or distributed in any way. The user may print, in hard copy, portions of the Web Site only for the purpose of registering with QuickEnrollment Inc. The use of any such material for any other reason, on any other web site, or the modification, distribution or republication of this material without prior written permission from QuickEnrollment Inc. is strictly prohibited.
+                </p>
+            </li>
+            <li><strong>User Information</strong>
+                <p>
+                The user acknowledges that any content, offers, information, opinions (including without limitation, reviews) ("Content") he or she may provide to the Web Site becomes the property of QuickEnrollment Inc., including all copyright, without reservation, and user waives in favour of QuickEnrollment Inc. any and all moral rights in such Content. The user acknowledges and agrees that all or any portion of the Content may be used, edited, reproduced, published, translated, sublicensed, copied and distributed and/or incorporated into other works in any form, media, or technology now known or hereafter developed for the full term of any copyright that may exist in such Content, without compensation of any kind to the user.
+                <br><br>
+                By submitting Content to QuickEnrollment Inc., the user automatically warrants that he/she has the full right and authority to submit such Content, and that none of such Content is subject to any copyright or other proprietary right of a third party.
+                <br><br>
+                Any Content expressed or made available by third parties, including any other user of the Web Site, are those of the respective third parties and not of QuickEnrollment Inc. or its licensors, or any of their officers, directors, employees or agents.
+                <br><br>
+                QuickEnrollment Inc. reserves the right to not publish, or to remove any Content that it deems in its sole discretion to be inappropriate for the Web Site, for any reason whatsoever.
+                </p>
+            </li>
+            <li><strong>Disclaimer</strong>
+                <p>
+                THE USER ACKNOWLEDGES THAT QUICKENROLLMENT INC. PROVIDES A REGISTRATION AND ONLINE FEE COLLECTION SERVICES SERVICE ONLY. IN NO EVENT SHALL QUICKENROLLMENT INC., ITS OFFICERS, DIRECTORS, EMPLOYEES OR ITS SUPPLIERS BE LIABLE FOR ANY DAMAGES (INCLUDING, WITHOUT LIMITATION, DAMAGES FOR DEATH, PERSONAL INJURY OR LOSS OF WAGES,) ARISING OUT OF PARTICIPATION BY THE USER IN ANY ACTIVITY FOR WHICH THE USER HAS REGISTERED THROUGH THE WEB SITE.
+                <br><br>
+                THE MATERIALS ON THE WEB SITE ARE PROVIDED "AS IS". QUICKENROLLMENT INC. MAKES NO WARRANTIES, EXPRESSED OR IMPLIED, AND IT DISCLAIMS AND NEGATES ALL OTHER WARRANTIES, INCLUDING WITHOUT LIMITATION, IMPLIED WARRANTIES OR CONDITIONS OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT OF INTELLECTUAL PROPERTY OR OTHER VIOLATION OF RIGHTS. FURTHER, QUICKENROLLMENT INC. DOES NOT WARRANT OR MAKE ANY
+                <br><br>
+                REPRESENTATIONS CONCERNING THE ACCURACY, LIKELY RESULTS, OR RELIABILITY OF THE USE OF THE MATERIALS ON THE WEB SITE OR OTHERWISE RELATING TO SUCH MATERIALS OR ON ANY SITES LINKED TO THE WEB SITE.
+                <br><br>
+                WITHOUT LIMITING THE FOREGOING, IN NO EVENT SHALL QUICKENROLLMENT INC., ITS OFFICERS, DIRECTORS, EMPLOYEES OR ITS SUPPLIERS BE LIABLE FOR ANY DAMAGES (INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF DATA OR PROFIT, OR DUE TO BUSINESS INTERRUPTION), ARISING OUT OF THE USE OR INABILITY TO USE THE MATERIALS ON THE WEB SITE.
+                </p>
+            </li>
+            <li><strong>Revisions and Errata</strong>
+                <p>
+                The materials appearing on the Web Site could include technical, typographical, or photographic errors. QuickEnrollment Inc. does not warrant that any of the materials on the Web Site are accurate, complete, or current. QuickEnrollment Inc. may make changes to the materials contained on the Web Site at any time without notice. QuickEnrollment Inc. does not, however, make any commitment to update the materials.
+                </p>
+            </li>
+            <li><strong>Links</strong>
+                <p>
+                QuickEnrollment Inc. has not reviewed the sites linked to the Web Site and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by QuickEnrollment Inc. of the site. Use of any such linked web site is at the user's own risk.
+                </p>
+            </li>
+            <li><strong>Site Terms of Use Modifications</strong>
+                <p>
+                QuickEnrollment Inc. may revise these terms of use for the Web Site at any time without notice. By using the Web Site you are agreeing to be bound by the then current version of these Terms of Use. 
+                </p>
+            </li>
+            </ol>
+            </p>
 <br><br><br><br><br><br>
           </div>
         </div>

@@ -103,7 +103,7 @@
 					</transition>
 
 					<img src="../assets/goods.png" class="img-responsive" style="float:right;">
-					<router-link to="/Products"><img src="../assets/arrowback.png" class="backButton" alt="back to Product"></router-link>
+					<!--<router-link to="/Products"><img src="../assets/arrowback.png" class="backButton" alt="back to Product"></router-link>-->
 
 				</div>
 
@@ -152,6 +152,9 @@ export default {
   },
   created: function() {
 	this.$parent.prodEnabled=true;
+	if(this.$route.query.page=="caseStudies"){
+		this.currentSection="caseStudies";
+	}
   }
 }
 </script>
@@ -161,9 +164,6 @@ export default {
 h5{
 	font-weight:bold;
 	margin-top:30px;
-}
-.yellowText{
-	color:#806000;
 }
 .signature{
 	text-align:right;

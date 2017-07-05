@@ -9,21 +9,29 @@
             <div class="col-xs-12 bodyText bodytext">
               <img src="../assets/building.jpeg" class="img-responsive" style="float:left; margin-right:15px;">
               <p>
-              QuickEnrollment Inc. ('QE') was established in September 1999 and operates out of Toronto, Ontario, Canada. QuickEnrollment provides a comprehensive suite of online registration solutions particularly, but not exclusively, to amateur and recreational sports organizations, their respective leagues, tournaments and events they run.
+               <strong>QuickEnrollment Inc.</strong> (“QE”) was first established in September 1999, in an effort to streamline the registration process in such a way that would provide a quick and easy alternative to traditional, paper-based methods of registration. With the development and implementation of QE-RMS (Registration Management Software), parents and registrants were provided with a fast and simple registration process, and administrators with an uncomplicated database that would satisfy all their player management, informational and communicative needs, while remaining user-friendly and straightforward. (<router-link to="/Products-RMS">details</router-link>).
+<br><br>
+QE’s innovation and integration expertise was in full display, when in 2000, QE-RMS was integrated with the C2J-AGILEX governing body management system, in order to become the first to connect all aspects of player registration and governing body management in Canada. The new platform, implemented for the Ontario Minor Hockey Association (OMHA – 125,000+ players), streamlined registration at all levels of hockey from player to league to provincial governing body to national governing body and resulted in substantially increased efficiencies and decreased efforts at all levels. The Greater Toronto Hockey League (GTHL-45,000 players) and Minor Hockey Alliance (ALLIANCE-40,000 players) joined the QE-RMS/AGILEX integration platform in 2001. (<router-link to="/Products-QINT?page=caseStudies">details</router-link>)
+<br><br>
+In 2006 QE expanded its product and service offerings to include Online Fee Collection Services (OFCS). End-to-end logistics and software were implemented that enabled clients to obtain an online credit card merchant account, process registration fees, manage transactions and display detailed integrated transaction reporting. OFCS is currently servicing amateur sports organizations nationwide. (<router-link to="/Products-OFCS">details</router-link>)
+<br><br>
+Operating out of Markham, Ontario, Canada, QE has been recognized by leading organizations such as Hockey Canada, Ontario Minor Hockey Association, GTHL, Alliance and Slo-Pitch Ontario. QE has also been nominated by the Royal Bank of Canada as the “Business of the Year”. QuickEnrollment provides comprehensive online registration and fee collection solutions to amateur and recreational sports organizations, their respective leagues, tournaments, and events. 
               </p>
               <p>
          <div class="titleText"> Our Business Approach</div>
-          At QuickEnrollment, our business philosophy is to build relationships with our clients as long-term partners. This allows us to grow with our clients and have a better understanding of their existing registration processes. What distinguishes QuickEnrollment from other companies is that our main business focus is <b>online registration</b>. Our expertise and knowledge in this area has allowed us to become registration specialists, thereby, providing our clients with the best online registration solution available.
-              </p>
-              <p>
-          QuickEnrollment has essentially automated the traditional paper-based registration process that currently exists in amateur and recreational sports by leveraging state-of-the-art Internet based tools and technologies in creating the QuickEnrollment Online Registration Management System.
+           At QuickEnrollment, our business philosophy is to build lasting, long-term relationships with our clients. This allows us to grow with our clients and have a better understanding of their processes, needs, and aims to provide them with premier products of the highest quality. Further, the growth of these relationships enables us to foresee potential problems that may present itself, and subsequently customize process and solutions to best suit individual requirements. In doing so, we have achieved partnerships with principal sports organizations, such as Hockey Canada, Alliance Hockey, and the GTHL. Maintaining relationships with our clients is of the utmost importance to QuickEnrollment, and is the foundation upon which our company was built and continues to grow.
+<br><br>
+QuickEnrollment’s main distinguishing characteristics are our expertise, knowledge, and extreme focus that have allowed us to become registration and fee collection specialists thereby affording our clients the finest online solutions available.
+<br><br>
+QuickEnrollment has both automated and revolutionized traditional paper-based registration process that previously existed in amateur and recreational sports. Through leveraging state-of-the-art Internet-based tools and technologies in creating QuickEnrollment online solutions, we have created a forum in which associations can save themselves, volunteers, and members incalculable amounts of time, energy, and frustration. 
               </p>
               <p>
           <div class="titleText">Our Mission:</div>
-          To streamline and automate your registration process by making registration quick, easy and more powerful for your organization and your participants.
-              </p>
-              <p>
-          Our objective is to improve the business processes within your organization. We do this by increasing both YOUR satisfaction and YOUR CUSTOMERS' satisfaction (the participants) by making your registration process easier for them, and easier and more cost effective for you to administer. In the end, you will save tremendous amounts of time and money.
+          <em>To streamline and automate your registration and fee collection process by making registration quick, easy and more powerful for your organization and your participants.</em>
+<br><br>
+Our objective is to improve the business processes within your organization, ultimately saving you valuable time, money and resources. We have built QE solutions in an extremely straightforward and user-friendly style so that both associations and their members are able to quickly and easily access and navigate from any computer with a live Internet connection. In doing this, QE has ensured that this process becomes extremely convenient for members, and provides administration with a cost-effective and hassle-free registration process, ultimately increasing the satisfaction of both parties. Further, QE offers complete support and technical assistance, ensuring that your problems are resolved in the swiftest and most convenient manner possible.
+<br><br>
+If your organization does not currently offer online registration and fee collection and you would like more information, click <router-link to="/Contact">here</router-link> for contact information 
               </p>
             </div>
         </div>

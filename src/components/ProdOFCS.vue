@@ -22,6 +22,9 @@
 						<div class="subitem">
 							<button type="button" :class="['sidebtn', this.currentSection == 'OnlineAdministration'?'activeTabOFCS':'']" @click="onExpand('OnlineAdministration','check')">Online Administration</button>
 						</div>
+						<div class="subitem">
+							<button type="button" :class="['sidebtn', this.currentSection == 'support'?'activeTabOFCS':'']" @click="onExpand('support','check')">Support</button>
+						</div>
 					</div>
 					<router-link to="/Products"><div class="back2Prod">&#8920; back to Products</div></router-link>
 				</div>
@@ -95,9 +98,30 @@
 							</div>
 						</div>
 					</transition>
+					<transition name="slide-fade">
+						<div v-if="this.currentSection=='support'" :class="[this.currentSection != 'support'?'hideMe':'']">
+							<div class="col-10" style="margin:10px 20px 50px 0px;text-align:left;">
+								<div class="titleText">Support: <font class="yellowText">The Learning Centre</font></div>
+								<p>
+									Ok, so we’ve provided you with the most powerful tools available to assist you in providing the best possible services to your teams…but we realize our tools are only as useful to you as your knowledge of how to operate and utilize them.
+									<ul>
+									<li>all QE processes and functionalities have been built to be extremely easy to use and intuitive</li>
+									<li>prior to your go live date an interactive online learning session is conducted with a QE representative that will ensure that you are well versed and comfortable with all QE processes and functionalities</li>
+									<li>manual available to view/print on all processes and functionalities</li>
+									<li>QE representatives available for assistance within your Qtrny support line</li>
+									<li>QE representatives also available via toll free number</li>
+									</ul>
+
+									For further information or enquires please contact us at <a href="mailto:info@qucikenrollment.com?subject=Enquires">info@qucikenrollment.com</a>
+								</p>
+							</div>
+						</div>
+					</transition>
+
+
 
 					<img src="../assets/goods.png" class="img-responsive" style="float:right;">
-					<router-link to="/Products"><img src="../assets/arrowback.png" class="backButton" alt="back to Product"></router-link>
+					<!--<router-link to="/Products"><img src="../assets/arrowback.png" class="backButton" alt="back to Product"></router-link>-->
 
 				</div>
 
@@ -155,9 +179,6 @@ export default {
 h5{
 	font-weight:bold;
 	margin-top:30px;
-}
-.yellowText{
-	color:#806000;
 }
 .signature{
 	text-align:right;

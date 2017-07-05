@@ -27,7 +27,7 @@
 									<a @click="onExpand('adminOverview','check')">Overview</a>
 									<a @click="onExpand('adminFeatures','check')">Admin Features</a>
 									<a @click="onExpand('controlCenter','check')">OFCS Control Centre</a>
-									<a @click="onExpand('support','check')">Support</a>
+									<!--<a @click="onExpand('support','check')">Support</a>-->
 								</div>
 						</div>
 					</div>
@@ -450,7 +450,7 @@ For further information or enquires please contact us at <a href="mailto:info@qu
 						</div>
 					</transition>
 
-										<transition name="slide-fade">
+					<!--<transition name="slide-fade">
 						<div v-if="this.currentSection=='support'" :class="[this.currentSection != 'support'?'hideMe':'']">
 							<div class="col-10" style="margin:10px 20px 50px 0px;text-align:left;">
 <h5>Support: <font class="yellowText">The Learning Centre</font></h5>
@@ -469,7 +469,7 @@ For further information or enquires please contact us at <a href="mailto:info@qu
 								</p>
 							</div>
 						</div>
-					</transition>
+					</transition>-->
 <!--
 					<transition name="slide-fade">
 						<div v-if="this.currentSection=='Registration'" :class="[this.currentSection != 'Registration'?'hideMe':'']">
@@ -515,7 +515,7 @@ For further information or enquires please contact us at <a href="mailto:info@qu
 					</transition>-->
 
 					<img src="../assets/goods.png" class="img-responsive" style="float:right;">
-					<router-link to="/Products"><img src="../assets/arrowback.png" class="backButton" alt="back to Product"></router-link>
+					<!--<router-link to="/Products"><img src="../assets/arrowback.png" class="backButton" alt="back to Product"></router-link>-->
 
 				</div>
 
@@ -563,6 +563,9 @@ export default {
   },
   created: function() {
 	this.$parent.prodEnabled=true;
+	if(this.$route.query.page=="testimonials"){
+		this.currentSection="Client_Applause";
+	}
   }
 }
 </script>
@@ -572,9 +575,6 @@ export default {
 h5{
 	margin-top:30px;
 	font-weight:bold;
-}
-.yellowText{
-	color:#806000;
 }
 .signature{
 	text-align:right;

@@ -1,11 +1,15 @@
 <template>
   <div>
     <div class="topSpacing"></div>
+    
         <div class="row" style="padding:0px;margin:0px;">
           <div class="headerbelt">
             <div class="container"><div class="headerfont">{{title}}</div></div>
           </div>
-          <div class="container bodyContainer bodyText">
+          <div class="container">
+          <iframe src="https://www.quickenrollment.com/qe_login/qeLoginClient/login.aspx" width="100%" height="650" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+          <!--<div class="container bodyContainer bodyText">
                 <p>
                     {{ body }}
                 </p>
@@ -43,56 +47,8 @@
                     <button type="submit" class="btn btn-danger bodyText" @click.stop="onClick('https://www.quickenrollment.com/qe_login/qeLoginClient/forgot_password.aspx')">forgot my password</button>
                     </div>
                 </div>
-                <hr>
-                <!--Please ignore the following content.
-                <br>
-                <div class="table-responsive">          
-                    <table class="table" style="background-color:#ffeeee;">
-                        <thead>
-                        <tr>
-                            <th>#</th>
-                            <th>Firstname</th>
-                            <th>Lastname</th>
-                            <th>Age</th>
-                            <th>City</th>
-                            <th>Country</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td>Anna</td>
-                            <td>Pitt</td>
-                            <td>21</td>
-                            <td>New York</td>
-                            <td>USA</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>2</td>
-                            <td rowspan="2" bgcolor="#FFA">Pete</td>
-                            <td rowspan="2" bgcolor="#ACF">Dawson</td>
-                            <td>35</td>
-                            <td rowspan="2">New York</td>
-                            <td>USA</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>35</td>
-                            <td>USA</td>
-                        </tr>
-                        </tbody>
-                    </table>
-                </div>
-        <hr>
-          <router-link to="/#">HOME</router-link>
-            <hr>
-            <div class="btn-group">
-                <button type="button" class="btn btn-primary" @click.stop="onClick('abc')">Home</button>
-                <button type="button" class="btn btn-primary">Samsung</button>
-                <button type="button" class="btn btn-primary">Sony</button>
-            </div>
-            <hr>-->
+                <hr>-->
+
         </div>
     </div>
   </div>

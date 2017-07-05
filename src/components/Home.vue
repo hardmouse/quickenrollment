@@ -22,34 +22,67 @@
         </div><span v-for="(url,key) in homeImage"><img :src="url" width="0"></span>
       </div>
   </div>
+  <div class="headerbelt">
+            <div class="container"><div class="headerfont">Why QuickEnrollment?</div></div>
+          </div>
   <div class="container contentBody">
     <div class="row">
-      <div class="col-5">
-        <img src="../assets/sport3.jpg" class="img-responsive img-rounded">
+      <div class="col-md-4 col-sm-12 supportContent">
+        <img src="../assets/eor.png" class="supportImage">
+<h5 class="yellowText">Efficient Online Registration</h5>
+<p>
+Members registered in your customized registration system in minutes! No line ups and no hassles! Automation reduces volunteer workload by more than 60%! Detailed and customized reporting ensures complete control!
+</p>
       </div>
-      <div class="col-7 supportContent">
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      <div class="col-md-4 col-sm-12 supportContent">
+        <img src="../assets/sop.png" class="supportImage">
+<h5 class="yellowText">Safe, Secure Online Payments with the Lowest Rates</h5>
+<p>
+No more chasing fees. Keep control with the industry’s first integrated and detailed payment reporting. Offer a staggered payment option. National volumes ensure that you will get all this for the lowest processing rates!
+</p>
+      </div>
+      <div class="col-md-4 col-sm-12 supportContent">
+        <img src="../assets/are.png" class="supportImage">
+<h5 class="yellowText">Automate Reminder Emails</h5>
+<p>
+Offering Cheque or Cash payments? Let our Accounts Receivable Automated Emails chase fees without any efforts by you! Need to remind members of important information prior to your event? Reminder Auto Emails make sure your members are fully informed at just the right time!
+</p>
       </div>
     </div>
-    <hr>
+
+
     <div class="row">
-      <div class="col-7 supportContent">
-        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      <div class="col-md-4 col-sm-12 supportContent">
+        <img src="../assets/emc.png" class="supportImage">
+<h5 class="yellowText">Efficient Member Communications</h5>
+<p>
+Email a member, parents or your entire organization with the Email Generator! Communicate cancellations to a division or participants in a session. Inform your coaches of upcoming certification dates and locations
+</p>
       </div>
-      <div class="col-5">
-        <img src="../assets/sport4.jpg" class="img-responsive img-rounded">
+      <div class="col-md-4 col-sm-12 supportContent">
+        <img src="../assets/tmm.png" class="supportImage">
+<h5 class="yellowText">Targeted Market your Members</h5>
+<p>
+Email a member, parents or your entire organization with the Email Generator! Communicate cancellations to a division or participants in a session. Inform your coaches of upcoming certification dates and locations
+</p>
+      </div>
+      <div class="col-md-4 col-sm-12 supportContent">
+        <img src="../assets/crm.png" class="supportImage">
+<h5 class="yellowText">Customer Retention & Management</h5>
+<p>
+Keep track of all your current and past members so you can easily reach out and stay connected.
+</p>
       </div>
     </div>
-    <hr>
     <div class="row">
-      <div class="col-5">
-        <img src="../assets/sport5.jpg" class="img-responsive img-rounded">
-      </div>
-      <div class="col-7 supportContent">
-        Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+      <div class="col-md-4 col-sm-12 supportContent">
+        <img src="../assets/trm.png" class="supportImage">
+<h5 class="yellowText">Tournament Registration Management System</h5>
+<p>
+Teams registered and paid in minutes! Track and manage team registration. Real-time information at your fingertips. Make your tournament registration convenient and efficient for you and your teams!
+</p>
       </div>
     </div>
-    
   </div>
 </div>
   
@@ -149,12 +182,12 @@ export default {
   margin-top:30px;
   margin-bottom:30px;
   border: 10px solid white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 200px;
   resize: vertical;
-  overflow: auto;
+}
+.supportImage{
+  width:80px;
+  display: block;
+    margin: 0 auto;
 }
 .quoteBodyText{
   margin-left: 15px;
@@ -191,6 +224,8 @@ export default {
   position:absolute;
   z-index: -10;
   margin: 0px;
+  background-position: center center;
+  background-size: cover;
   height:100%;
   height:90hv;
   width:100%;

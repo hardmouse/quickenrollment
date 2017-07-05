@@ -35,7 +35,7 @@
                 <b-form-select v-model="selected" 
                    :options="options"
                    calss="mb-3"></b-form-select>
-                <div>Selected: <strong>{{selected}}</strong></div>
+                <!--<div>Selected: <strong>{{selected}}</strong></div>-->
             </div>
             <!--<div class="checkbox">
                 <label><input type="checkbox"> Remember me</label>
@@ -57,24 +57,24 @@
                   Canada<br>
                   TEL: (416) 337-2016<br>
                   FAX: (905) 477-8949<br>
-                  info@quickenrollment.com<br>
+                  <a href="mailto:info@quickenrollment.com">info@quickenrollment.com</a><br>
                   <br><br>
             </div>
             <div class="col-md-4 col-xs-12">
                   <p class="footerTextTitle">ABOUT</p>
-                  Testimonials<br>
-                  FAQs<br>
-                  Privacy Policy<br>
+                  <router-link to="/Products-RMS?page=testimonials">Testimonials</router-link><br>
+                  <router-link to="/aboutUs">FAQs</router-link><br>
+                  <router-link to="/PrivacyPolicy">Privacy Policy</router-link><br>
                   <br><br>
             </div>
             <div class="col-md-4 col-xs-12">
                   <p class="footerTextTitle">SUPPORT</p>
-                  Contact Us<br>
+                  <router-link to="/Contact">Contact Us</router-link><br>
                   <br><br>
             </div>
 
 				<div class="col-12" style="text-align:center; color:#FF0;">
-			    copyright 1999-2017 QuickEnrollment Inc. all rights reserved
+			    Copyright 1999-2017 QuickEnrollment Inc. all rights reserved
 		    </div>
           </div>
        </div>
@@ -124,7 +124,7 @@ export default {
       scrolled: false,
       homeTextShow:true,
       currentClass: ['topnav top-banner','responsive topnav top-banner-solid','topnav top-banner-blue'],
-      currentHomeBackground: ['bkImage1','bkImage2'],
+      // currentHomeBackground: ['bkImage1','bkImage2'],
       loginShow: false,
       selected: null,
       options: [
@@ -251,7 +251,7 @@ export default {
   top: 0;
   z-index: 10;
   width: 100%;
-  font-family:'gothic', Arial, Haettenschweiler, sans-serif;
+  font-family:'gothic', Arial, sans-serif;
   border:#0F0 0px solid;
 }
 .topnav-item {
@@ -407,6 +407,9 @@ export default {
 .footerLogoText{
   font-size:10px;
 }
+.yellowText{
+	color:#806000;
+}
 .back2Prod{
   padding: 0px 20px 0px 20px;
   margin-top:10px;
@@ -543,12 +546,12 @@ img {
   background-size: cover;
   height: 90%;
 }
-.bkImage1{
+/*.bkImage1{
   background-image: url("http://jay-yu.com/works/quickEnrollment/assets/banner1.jpg");
 }
 .bkImage2{
   background-image: url("http://jay-yu.com/works/quickEnrollment/assets/banner2.jpg");
-}
+}*/
 .serviceImage {
   background-image: url('http://jay-yu.com/works/quickEnrollment/assets/banner2.jpg');
   background-position: center center;
@@ -559,11 +562,13 @@ img {
 
 @font-face {
     font-family: 'myFont';
-    src: url('./assets/font/mimicimpact.ttf');
+    src: url('./assets/fonts/mimicimpact.ttf');
+    /*src: url('http://jay-yu.com/works/quickEnrollment/assets/font/mimicimpact.ttf');*/
 }
 @font-face {
     font-family: 'gothic';
-    src: url('./assets/font/gothic.ttf');
+    src: url('./assets/fonts/gothic.ttf');
+    /*src: url('http://jay-yu.com/works/quickEnrollment/assets/font/gothic.ttf');*/
 }
 .white{
 	color: #0079C1;
