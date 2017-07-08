@@ -553,7 +553,7 @@ img {
   background-image: url("http://jay-yu.com/works/quickEnrollment/assets/banner2.jpg");
 }*/
 .serviceImage {
-  background-image: url('http://jay-yu.com/works/quickEnrollment/assets/banner2.jpg');
+  background-image: url('http://jay-yu.com/works/quickEnrollment/assets/golf.jpg');
   background-position: center center;
   background-size: cover;
   height: 80%;
