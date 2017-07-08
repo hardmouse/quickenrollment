@@ -145,7 +145,8 @@ export default {
 }
 .myTitle {
   margin-top:30%;
-	font-family: 'myFont';
+	/*font-family: 'myFont';*/
+	font-family: 'myFont', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   text-align: left;
   opacity: 0.8;
   filter: alpha(opacity=80);
@@ -159,7 +160,7 @@ export default {
 }
 .myBodyText {
   white-space: nowrap;
-	font-family: 'myFont';
+	font-family: 'myFont', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   text-align: left;
   margin-left: 10px;
   border: 0px solid #0F0;
@@ -190,6 +191,7 @@ export default {
     margin: 0 auto;
 }
 .quoteBodyText{
+	font-family:'gothic', Arial, sans-serif;
   margin-left: 15px;
   width: 80%;
   color: #FFF;
