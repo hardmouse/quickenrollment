@@ -120,6 +120,7 @@ export default {
   },
 	created: function() {
 		this.$parent.prodEnabled=false;
+    window.scrollTo(0, 0);
 	}
 }
 </script>

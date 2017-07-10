@@ -69,8 +69,9 @@ export default {
 //   },
   created: function () {
     this.fetchData();
-	console.log(this.currentIndex);
-	this.$parent.prodEnabled=false;
+	  console.log(this.currentIndex);
+	  this.$parent.prodEnabled=false;
+    window.scrollTo(0, 0);
   },
 
   methods: {

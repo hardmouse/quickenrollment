@@ -15,7 +15,11 @@
         <router-link to="" class="icon topnav-item rightMenu" @click.native="onExpand()"><img src="./assets/menu.gif" border="0"></router-link>
         <router-link to="" class="topnav-item right" @click.native="loginShow = !loginShow">Register</router-link>
         <router-link to="/admin" :class="['topnav-item',this.$route.name == 'Administrator'?'activeTab':'', 'right']">Admin Login</router-link>
-        <!--{{scrolled}}{{yNum}}-->
+        <!--<font style="color:#FFF;">
+        {{scrolled}}
+        {{yNum}}
+        {{screenWidth}}
+        </font>-->
         <!--<a  href="javascript:void(0);" class="topnav-item left">({{this.$route.name}})</a>-->
       </div>
     </div>
@@ -44,6 +48,7 @@
             </form>
           </div>
       </transition>
+
     <router-view></router-view>
 
      <div class="myFooter">
@@ -121,6 +126,7 @@ export default {
       cNum:0,
       hpNum:0,
       yNum: 0,
+      screenWidth: 0,
       scrolled: false,
       homeTextShow:true,
       currentClass: ['topnav top-banner','responsive topnav top-banner-solid','topnav top-banner-blue'],
@@ -183,13 +189,15 @@ export default {
       this.homeTextShow=true;
     },
     handleWindowResize(event) {
-      this.windowWidth = event.currentTarget.innerWidth;
-      if(this.windowWidth>640)this.cNum=0;
-      console.log(this.windowWidth);
+      // this.windowWidth = event.currentTarget.innerWidth;
+      // if(this.windowWidth>640)this.cNum=0;
+      // console.log(this.windowWidth);
+      this.screenWidth = window.outerWidth;
     },
     handleScroll () {
       this.scrolled = window.scrollY > 0;
       this.yNum = window.scrollY;
+      this.screenWidth = window.outerWidth;
       // if(this.yNum>100){
       //   this.cNum=2;
       // }else{
@@ -396,13 +404,14 @@ export default {
   background: linear-gradient(rgba(235,235,235,1), rgba(255,255,255,1) 15%);*/
 }
 .footerTextTitle{
-  font-size:14px;
+  font-size:16px;
   font-weight: bold;
   margin-left: -7px;
   margin-bottom: 7px;
 }
 .footerText{
-  font-size:14px;
+  font-size:15px;
+  font-family: 'gothic';
 }
 .footerLogoText{
   font-size:10px;
@@ -418,10 +427,10 @@ export default {
   color:#FFF;
 }
 .bottomFooter{
-  color:#FFF;
+  color:#555;
   margin:0px;
   padding:20px;
-  background-color:#0079C1;
+  background-color:#FFF;
 }
 img {
   vertical-align: middle;
@@ -577,13 +586,13 @@ img {
   font-size: 36px;
   font-size: 8vw;
 	padding-top:  80px;
-	font-family: 'myFont';
+	font-family: 'myFont', Arial, Helvetica, sans-serif;
   text-shadow: 0 0 8px #FFF, 0 0 19px #FFF;
 }
 .headerfont{
 	color: #333;
   font-size: 32px;
-	font-family: 'gothic';
+	font-family: 'gothic', Arial, Helvetica, sans-serif;
   /*text-shadow: 0 0 8px #FFF, 0 0 19px #FFF;*/
 }
 .headerbelt{

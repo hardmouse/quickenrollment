@@ -73,6 +73,7 @@ export default {
 		},
 	},
 	created: function() {
+    	window.scrollTo(0, 0);
 		this.$parent.prodEnabled=true;
 	},
 }

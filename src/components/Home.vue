@@ -1,12 +1,11 @@
 <template>
 <div>
   <div class="homeContainer vertical-center">
-    <!--<div class="bkImage vertical-center" :class="this.$parent.currentHomeBackground[this.$parent.hpNum]">-->
       <transition name="fade">
         <img :src="homeImage[this.$parent.hpNum]" :key="homeImage[this.$parent.hpNum]" class="img-responsive homeBackground">
       </transition>
       <div class="container">
-        <div class="col-sm-8 offset-sm-2">
+        <div class="col-sm-10 offset-sm-1">
           <transition name="bounce">
             <h1 class="myTitle">{{ title }}</h1>
           </transition>
@@ -61,9 +60,10 @@ Email a member, parents or your entire organization with the Email Generator! Co
       </div>
       <div class="col-md-4 col-sm-12 supportContent">
         <img src="../assets/tmm.png" class="supportImage">
-<h5 class="yellowText">Targeted Market your Members</h5>
+<h5 class="yellowText">Target Market Your Members</h5>
 <p>
-Email a member, parents or your entire organization with the Email Generator! Communicate cancellations to a division or participants in a session. Inform your coaches of upcoming certification dates and locations
+Have a new program you’re offering?  New merchandise or skills videos just came in? Is this season’s registration around the corner?
+Get the word out to all your members quickly and easily with our state-of-the-art mass communication tools!
 </p>
       </div>
       <div class="col-md-4 col-sm-12 supportContent">
@@ -100,8 +100,8 @@ export default {
       homeImage: ["http://jay-yu.com/works/quickEnrollment/assets/banner1.jpg",
       "http://jay-yu.com/works/quickEnrollment/assets/baseball2.jpg",
       "http://jay-yu.com/works/quickEnrollment/assets/soccer1.jpg",
-      "http://jay-yu.com/works/quickEnrollment/assets/hockey.jpg",
-      "http://jay-yu.com/works/quickEnrollment/assets/softball.jpg",
+      "http://jay-yu.com/works/quickEnrollment/assets/ska.jpg",
+      "http://jay-yu.com/works/quickEnrollment/assets/swm.jpg",
       "http://jay-yu.com/works/quickEnrollment/assets/basketball.jpg"],
       currentText:"",
       quoteText:[
@@ -109,7 +109,7 @@ export default {
         "I am extremely satisfied with what the QuickEnrollment Online Registration System provides SPO and it's members.<br><br><i>Tom Buchan, CEO</i><br><b>Slo-Pitch Ontario Association</b>",
         "We were very pleased that the online registration process went smoothly for both the spring and summer programs<br><br><i>Debbie McAdam, Administration</i><br><b>North Toronto Soccer Club</b>",
         "QuickEnrollment The system saved us hundreds of volunteer hours this past season!<br><br><i>Happy Minor Sports Administrator</i>",
-        "What a great system! It was flawless and intuitive.  Thanks again!<br><br><i>Happy Registrant</i><br>",
+        "What a great system! It was flawless and intuitive. Thanks again!<br><br><i>Happy Registrant</i>",
         "QuickEnrollment runner up for the Business of the Year, nominated by the Royal Bank of Canada<br><br>",
       ],
     }
@@ -129,6 +129,7 @@ export default {
   },
 	created: function() {
 		this.$parent.prodEnabled=false;
+    window.scrollTo(0, 0);
 	}
 }
 </script>
@@ -188,27 +189,28 @@ export default {
 .supportImage{
   width:80px;
   display: block;
-    margin: 0 auto;
+  margin: 0 auto;
+  padding-bottom:12px;
 }
 .quoteBodyText{
 	font-family:'gothic', Arial, sans-serif;
   margin-left: 15px;
-  width: 80%;
+  width: 100%;
   color: #FFF;
   /*font-size: 10px;*/
   font-size: 16px;
   text-align: left;
   text-shadow: 1px 1px 2px #000000, 0px 0px 4px #000000, 2px 2px 8px #000000;
 }
-@media screen and (max-width: 1200px) {
-  .quoteBodyText {font-size: 16px;}
-  .myBodyText {font-size: 4vw;}
-  .myTitle {font-size: 10vw;}
+@media screen and (max-width: 600px) {
+  .quoteBodyText {font-size: 14px;line-height: 15px;}
+  .myBodyText {font-size: 5vw; margin-bottom:0px;padding-top:0px;}
+  .myTitle {font-size: 12vw; margin-top:10%;}
 }
-@media screen and (max-width: 995px) {
-  .quoteBodyText {font-size: 12px;}
-  .myBodyText {font-size: 6vw;}
-  .myTitle {font-size: 12vw;}
+@media screen and (max-width: 400px) {
+  .quoteBodyText {font-size: 12px;line-height: 15px;}
+  .myBodyText {font-size: 5vw; margin-bottom:0px;padding-top:0px;}
+  .myTitle {font-size: 12vw; margin-top:50%;}
 }
 .myTitleColor1 {
   background-color: #0079C1;
@@ -227,11 +229,15 @@ export default {
   z-index: -10;
   margin: 0px;
   background-position: center center;
-  background-size: cover;
-  height:100%;
+  object-fit: cover;
+  /*height:100%;
   height:90hv;
   width:100%;
-  width:100hv;
+  width:100hv;*/
+  /*max-width:100%;
+  max-height:1500px;*/
+  height: 100%;
+  width: 100%;
 }
 .homeContainer {
   height:100vh;

@@ -27,11 +27,11 @@
 							<div class="col-10" style="margin:10px 20px 50px 0px;text-align:left;">
 								<div class="titleText">QE – Development and Integration</div>
 								<p>
-								QuickEnrollment offers design and development services to customize our registration and credit card processing platforms. Our team of development experts are capable of customizing our OFCS or RMS platforms in order to fulfill a variety of needs that are not currently offered. Our integration experts can also integrate our existing platforms to third part software if required.
+								QuickEnrollment offers design and development services to customize our registration and credit card processing platforms. Our team of development experts are capable of customizing our OFCS or RMS platforms in order to fulfill a variety of needs that are not currently offered. Our integration experts can also integrate our existing platforms to third party software if required.
 								</p>
 								<h5 class="yellowText">Registration (RMS)</h5>
 								<p>
-								QuickEnrollment has provided industry leading online Registration Management Software (RMS) to a variety of amateur sports organizations across Canada since 1999. Our sixth generation RMS “Q6” is a highly automated, robust system that addresses all aspects of an intuitive and efficient online platform. Clients have reported an average reduction of registration related work efforts of 55%. Click Here for more information on the Q6 RMS.
+								QuickEnrollment has provided industry leading online Registration Management Software (RMS) to a variety of amateur sports organizations across Canada since 1999. Our sixth generation RMS “Q6” is a highly automated, robust system that addresses all aspects of an intuitive and efficient online platform. Clients have reported an average reduction of registration related work efforts of 60%. <router-link to="/Products-RMS">Click Here</router-link> overviw for more information on Q6 RMS.
 								</p><p>
 								Q6 may operate as a stand-alone platform that address all registration needs of an individual organization or integrated with third party software such as a governing body management system to provide a truly powerful end-to-end registration experience at all levels.
 								</p><p>
@@ -152,6 +152,7 @@ export default {
   },
   created: function() {
 	this.$parent.prodEnabled=true;
+    window.scrollTo(0, 0);
 	if(this.$route.query.page=="caseStudies"){
 		this.currentSection="caseStudies";
 	}
@@ -161,6 +162,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+ul{
+	margin-top:12px;
+}
 h5{
 	font-weight:bold;
 	margin-top:30px;

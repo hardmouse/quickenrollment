@@ -7,11 +7,12 @@
           </div>
           <div class="container bodyContainer psi">
               <p>
-                    Using the QuickEnrollment System is absolutely safe. QuickEnrollment secures your personal information from any unauthorized use. We secure your personal data such as credit card numbers, names and phone numbers by protecting it through the use of the industry standard 128-bit Encryption using Secure Socket Layer (SSL) protocol.
+                    Using the QuickEnrollment System is absolutely safe. QuickEnrollment secures your personal information from any unauthorized use. We secure your personal data such as names and phone numbers by protecting it through the use of the highest avaliable industry standard Encryption using Secure Socket Layer (SSL) protocol.
                     <br><br>
                     QuickEnrollment has partnered with Entrust to provide our customers with the highest levels of security available.
                     <br><br>
                     <img src="../assets/footerImages/ecs_seal.gif"> <strong>Entrust</strong>
+                    <br>
                     <ul>
                         <li>Entrust is securing the Internet by delivering enhanced Internet security services that provide identification, entitlements, verification, privacy, and security management capabilities. Entrust's innovative and proven enhanced Internet security services enable businesses and governments worldwide to conduct trusted online transactions.</li>
                         <li>The Entrust Secured Site-Seal is licensed to Web sites that use Entrust digital certificates to enable the Secure Sockets Layer (SSL) protocol to secure communications between Web browsers and the Web site.</li>
@@ -97,8 +98,9 @@ export default {
       this.$router.push({name: 'home'}); 
      }
   },
-	created: function() {
+    created: function() {
 		this.$parent.prodEnabled=false;
+        window.scrollTo(0, 0);
 	}
 }
 </script>

@@ -12,9 +12,10 @@
 
 						<div class="row" style="margin-bottom:50px;">
 							<section class="col-md-4 col-xs-12">
-								<img src="../assets/sport1.jpg" class="img-responsive" style="padding-bottom:10px;">
+								<img src="../assets/sport1.jpg" class="img-responsive" style="padding-bottom:6px;">
 								<h3>Customer Service</h3>
 								<p>Please contact us if you require any assistance from our customer care department:
+									<br>
 									<br>Email: <a href="mailto:operations@quickenrollment.com">operations@quickenrollment.com</a>
 									<br>(9am - midnight EST - 7 days/ week)
 									<br>Local Phone #: 416-337-2016
@@ -22,9 +23,10 @@
 									<br>(9am - 5pm - Monday through Friday) </p>
 							</section>
 							<section class="col-md-4 col-xs-12">
-								<img src="../assets/sport2.jpg" class="img-responsive" style="padding-bottom:10px;">
+								<img src="../assets/sport2.jpg" class="img-responsive" style="padding-bottom:6px;">
 								<h3>Sales</h3>
 								<p> If you would like information on how QE may assist you and your organization please contact us at:
+									<br>
 									<br>Email: <a href="mailto:info@quickenrollment.com">info@quickenrollment.com</a>
 									<br>(9am - midnight EST - 7 days/ week)
 									<br>Local Phone #: 416-337-2016
@@ -60,6 +62,7 @@ export default {
   },
 	created: function() {
 		this.$parent.prodEnabled=false;
+    window.scrollTo(0, 0);
 	}
 }
 </script>

@@ -59,7 +59,7 @@
 								<p>
 								QE-OFCS and our partners will guide you each step of the way in obtaining an online credit card merchant account that is required to process fees over the internet. It begins with our easy-to-use online merchant account signup form. Completing the form will result in an auto-generated and prefilled CHASE Paymentech contract that simply needs to be reviewed, signed and sent in to your dedicated OFCS representative. Once approved, QE-OFCS will test and activate your payment processing ability.
 								<br><br>
-								Contact a QE-OFCS representative for more information at <a href="mailto:info@qucikenrollment.com?subject=Enquires">info@quickenrollment.com</a> 
+								Contact a QE-OFCS representative for more information at <a href="mailto:info@quickenrollment.com?subject=Enquires">info@quickenrollment.com</a> 
 								</p>
 							</div>
 						</div>
@@ -112,7 +112,7 @@
 									<li>QE representatives also available via toll free number</li>
 									</ul>
 
-									For further information or enquires please contact us at <a href="mailto:info@qucikenrollment.com?subject=Enquires">info@qucikenrollment.com</a>
+									For further information or enquires please contact us at <a href="mailto:info@quickenrollment.com?subject=Enquires">info@quickenrollment.com</a>
 								</p>
 							</div>
 						</div>
@@ -169,6 +169,7 @@ export default {
   	},
   },
   created: function() {
+    window.scrollTo(0, 0);
 	this.$parent.prodEnabled=true;
   }
 }
@@ -176,6 +177,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+ul{
+	margin-top:12px;
+}
 h5{
 	font-weight:bold;
 	margin-top:30px;

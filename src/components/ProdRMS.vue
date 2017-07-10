@@ -22,7 +22,7 @@
 						</div>
 						<br>
 						<div class="subitem dropdown">
-							<button class="dropbtn">&#9660; Tourment</button>
+							<button class="dropbtn">&#9660; Tournament</button>
 								<div class="dropdown-content">
 									<a @click="onExpand('adminOverview','check')">Overview</a>
 									<a @click="onExpand('adminFeatures','check')">Admin Features</a>
@@ -88,7 +88,7 @@ Denial, Event Reminder and Payment Reminder emails</li>
 
 <h5>Manage Your Member Registration Cycle: <font class="yellowText">Registration Management</font></h5>
 
-The majority of registration processes essentially follow a specific registration cycle with a small number of special circumstances that need to be managed.   Q6 RMS has been designed to utilize a combination of intuitive and automated functionalities to provide the ultimate in control of your registration cycle while reducing administrative workloads by as much as 55%!
+The majority of registration processes essentially follow a specific registration cycle with a small number of special circumstances that need to be managed. Q6 RMS has been designed to utilize a combination of intuitive and automated functionalities to provide the ultimate in control of your registration cycle while reducing administrative workloads by as much as 60%!
 
 <ul>
 <li>review high level, real time, member registration numbers by division/program and by member status (waiting, accepted, conditionally accepted and denied)</li>
@@ -145,7 +145,7 @@ Ok, so we’ve provided you with the most powerful tools available to assist you
 <li>QE representatives also available via toll free number </li>
 </ul>
 
-For further information or enquires please contact us at <a href="mailto:info@qucikenrollment.com?subject=Enquires">info@qucikenrollment.com</a> 
+For further information or enquires please contact us at <a href="mailto:info@quickenrollment.com?subject=Enquires">info@quickenrollment.com</a> 
 								</p>
 							</div>
 						</div>
@@ -209,7 +209,7 @@ The Q6 RMS may be set up to accept any one of five payment options: online credi
 <li>credit card payment is automatically deposited into your organization’s bank account within 2 business days</li>
 </ul>
 
-For further information or enquires please contact us at <a href="mailto:info@qucikenrollment.com?subject=Enquires">info@qucikenrollment.com</a>
+For further information or enquires please contact us at <a href="mailto:info@quickenrollment.com?subject=Enquires">info@quickenrollment.com</a>
 
 								</p>
 							</div>
@@ -348,7 +348,7 @@ Wayne Murray, <font class="yellowText">Barrie Minor Hockey Association</font>
 Holley Piotrowski, <font class="yellowText">Newmarket Minor Hockey Association</font>
 </div>
 <hr><br>
-To get full information and a more comprehensive product description, please be sure to email us at <a href="mailto:info@qucikenrollment.com?subject=Enquires">info@quickenrolment.com</a>
+To get full information and a more comprehensive product description, please be sure to email us at <a href="mailto:info@quickenrollment.com?subject=Enquires">info@quickenrollment.com</a>
 
 								</p>
 							</div>
@@ -444,75 +444,12 @@ Ok, so we’ve provided you with the most powerful tools available to assist you
 <li>QE representatives also available via toll free number</li>
 </ul>
 
-For further information or enquires please contact us at <a href="mailto:info@qucikenrollment.com?subject=Enquires">info@qucikenrollment.com</a>
+For further information or enquires please contact us at <a href="mailto:info@quickenrollment.com?subject=Enquires">info@quickenrollment.com</a>
 								</p>
 							</div>
 						</div>
 					</transition>
 
-					<!--<transition name="slide-fade">
-						<div v-if="this.currentSection=='support'" :class="[this.currentSection != 'support'?'hideMe':'']">
-							<div class="col-10" style="margin:10px 20px 50px 0px;text-align:left;">
-<h5>Support: <font class="yellowText">The Learning Centre</font></h5>
-
-Ok, so we’ve provided you with the most powerful tools available to assist you in providing the best possible services to your teams…but we realize our tools are only as useful to you as your knowledge of how to operate and utilize them.
-<ul>
-<li>all QE processes and functionalities have been built to be extremely easy to use and intuitive</li>
-<li>prior to your go live date an interactive online learning session is conducted with a QE representative that will ensure that you are well versed and comfortable with all QE processes and functionalities</li>
-<li>manual available to view/print on all processes and functionalities</li>
-<li>QE representatives available for assistance within your Qtrny support line</li>
-<li>QE representatives also available via toll free number</li>
-</ul>
-
-For further information or enquires please contact us at <a href="mailto:info@qucikenrollment.com?subject=Enquires">info@qucikenrollment.com</a>
-
-								</p>
-							</div>
-						</div>
-					</transition>-->
-<!--
-					<transition name="slide-fade">
-						<div v-if="this.currentSection=='Registration'" :class="[this.currentSection != 'Registration'?'hideMe':'']">
-							<div class="col-10" style="margin:10px 20px 50px 0px;text-align:left;">
-								<div class="titleText">The Qtrny Team Registration</div>
-								<p>
-Our team registration process has been designed to be quick, easy-to-use and efficient.  Qtrny utilizes automation and an intuitive design to achieve the highest possible team satisfaction levels.  Your teams will register and pay for your tournament within minutes from the convenience of any internet connected computer.
-
-<h5>Teams Begin Registering: <font class="yellowText">Qtrny Registration Process</font></h5>
-
-A team’s registration for your tournament can begin from your website or ours.  Teams will access your website and click a link (supplied by QE) that will direct them to your Qtrny registration system.   Teams will then view a list of your tournaments, divisions offered and the number of spaces available.  After selecting their desired tournament, they will then view the tournament details, complete the team registration form and choose their preferred payment method.  Once complete they will be able to view/print their invoice/receipt.  That’s it!  Registered in a matter of a few moments.  Built in features include:
-	
-<ul>
-<li>programs automatically open and close on dates selected by the tournament organizer</li>
-<li>maximum team registration numbers per division are displayed and updated real time</li>
-<li>a customized Information Page displays all relevant tournament information</li>
-<li>your team registration form collects a great number of details such as governing body, league, team information, team management information, team rosters, etc.</li>
-<li>only payment options your tournament accepts will be offered to your teams</li>
-<li>minimum deposit option available (if applicable)</li>
-<li>invoice/receipts are presented to view/print.  An email copy is also automatically sent</li>
-<li>the tournament organizer is automatically emailed each time a team registers</li>
-<li>teams may return to update their rosters with a cut-off date (if applicable)</li>
-</ul>
-
-
-<h5>Make Your Payment: <font class="yellowText">Payment Processing</font></h5>
-
-The Qtrny system may be set up to accept any one of five payment options: online credit card, offline credit card, cheque, money order or cash.  Your Qtrny Administrator Control Centre keeps track of all payment status’ and details automatically.  Online credit card payments are automatically updated.  All other payment methods are update by you once received.
-
-<ul>
-<li>pay in full or minimum deposit (if available)</li>
-<li>payment receipts emailed automatically</li>
-<li>credit card payment is automatically deposited into your organization’s bank account within 2 business days</li>
-</ul>
-
-
-
-For further information or enquires please contact us at <a href="mailto:info@qucikenrollment.com?subject=Enquires">info@quickenrollment.com</a>
-
-								</p>
-							</div>
-						</div>
-					</transition>-->
 
 					<img src="../assets/goods.png" class="img-responsive" style="float:right;">
 					<!--<router-link to="/Products"><img src="../assets/arrowback.png" class="backButton" alt="back to Product"></router-link>-->
@@ -563,6 +500,7 @@ export default {
   },
   created: function() {
 	this.$parent.prodEnabled=true;
+    window.scrollTo(0, 0);
 	if(this.$route.query.page=="testimonials"){
 		this.currentSection="Client_Applause";
 	}
@@ -572,6 +510,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+ul{
+	margin-top:12px;
+}
 h5{
 	margin-top:30px;
 	font-weight:bold;
