@@ -83,15 +83,15 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .bgRMS{
-	background-image: url('http://jay-yu.com/works/quickEnrollment/assets/hockeyShoe.jpg');
+	background-image: url('https://www.quickenrollment.com/home/assets/hockeyShoe.jpg');
 	background-size: 100%;
 }
 .bgOFCS{
-	background-image: url('http://jay-yu.com/works/quickEnrollment/assets/creditCard.jpg');
+	background-image: url('https://www.quickenrollment.com/home/assets/creditCard.jpg');
 	background-size: 100%;
 }
 .bgQINT{
-	background-image: url('http://jay-yu.com/works/quickEnrollment/assets/field.jpg');
+	background-image: url('https://www.quickenrollment.com/home/assets/field.jpg');
 	background-size: 100%;
 }
 .prodBox{

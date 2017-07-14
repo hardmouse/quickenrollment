@@ -95,19 +95,19 @@
      <div class="bottomFooter">
 	    <div class="row footerLogoText">
 			  <div class="col">
-			    <img src="./assets/footerImages/omha.gif" class="img-thumbnail" width="50"><br>ONTARIO MINOR HOCKEY ASSOCIATION
+			    <img src="./assets/footerImages/hc_logo.jpg" class="img-thumbnail" width="50"><br>HOCKEY CANADA
 		    </div>
 			  <div class="col">
-			    <img src="./assets/footerImages/hc_logo.jpg" class="img-thumbnail" width="50"><br>HOCKEY CANADA
+			    <img src="./assets/footerImages/omha.gif" class="img-thumbnail" width="60"><br>ONTARIO MINOR HOCKEY ASSOCIATION
 		    </div>
 			  <div class="col">
 			    <img src="./assets/footerImages/gthlfoot.gif" class="img-thumbnail" width="50"><br>GREATER TORONTO HOCKEY LEAGUE
 		    </div>
 			  <div class="col">
-			    <img src="./assets/footerImages/news_alliance.jpg" class="img-thumbnail"><br>ALLIANCE HOCKEY
+			    <img src="./assets/footerImages/news_alliance.jpg" class="img-thumbnail" width="70"><br>ALLIANCE HOCKEY
 		    </div>
 			  <div class="col">
-			    <img src="./assets/footerImages/spoLogoSMALL.gif" class="img-thumbnail"><br>SLO-PITCH ONTARIO
+			    <img src="./assets/footerImages/spoLogoSMALL.gif" class="img-thumbnail" width="50"><br>SLO-PITCH ONTARIO
 		    </div>
 	    </div>
      </div>
@@ -569,14 +569,8 @@ img {
   background-size: cover;
   height: 90%;
 }
-/*.bkImage1{
-  background-image: url("http://jay-yu.com/works/quickEnrollment/assets/banner1.jpg");
-}
-.bkImage2{
-  background-image: url("http://jay-yu.com/works/quickEnrollment/assets/banner2.jpg");
-}*/
 .serviceImage {
-  background-image: url('http://jay-yu.com/works/quickEnrollment/assets/golf.jpg');
+  background-image: url('https://www.quickenrollment.com/home/assets/golf.jpg');
   background-position: center center;
   background-size: cover;
   height: 80%;
@@ -585,13 +579,11 @@ img {
 
 @font-face {
     font-family: 'myFont';
-    src: url('./assets/fonts/mimicimpact.ttf');
-    /*src: url('http://jay-yu.com/works/quickEnrollment/assets/font/mimicimpact.ttf');*/
+    src: url('https://www.quickenrollment.com/home/assets/fonts/mimicimpact.ttf');
 }
 @font-face {
     font-family: 'gothic';
-    src: url('./assets/fonts/gothic.ttf');
-    /*src: url('http://jay-yu.com/works/quickEnrollment/assets/font/gothic.ttf');*/
+    src: url('https://www.quickenrollment.com/home/assets/fonts/gothic.ttf');
 }
 .white{
 	color: #0079C1;
@@ -607,7 +599,6 @@ img {
 	color: #333;
   font-size: 32px;
 	font-family: 'gothic', Arial, Helvetica, sans-serif;
-  /*text-shadow: 0 0 8px #FFF, 0 0 19px #FFF;*/
 }
 .headerbelt{
   width: 100%;
