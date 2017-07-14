@@ -12,7 +12,7 @@
 
 						<div class="row" style="margin-bottom:50px;">
 							<section class="col-md-4 col-xs-12">
-								<img src="../assets/sport1.jpg" class="img-responsive" style="padding-bottom:6px;">
+								<img src="../assets/support.jpg" class="img-responsive" style="padding-bottom:6px;">
 								<h3>Customer Service</h3>
 								<p>Please contact us if you require any assistance from our customer care department:
 									<br>
@@ -70,12 +70,12 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 h3{
-	font-family:'gothic', Arial, sans-serif;
+	font-family:'gothic', Arial, Helvetica, sans-serif;
 	margin-top:30px;
 	font-weight:bold;
 }
 p{
-	font-family:'gothic', Arial, sans-serif;
+	font-family:'gothic', Arial, Helvetica, sans-serif;
 	font-size: 16px;
 }
 </style>

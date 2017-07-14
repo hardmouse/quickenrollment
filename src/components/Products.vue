@@ -27,7 +27,8 @@
 					<div class="productBoxBody">Development & Integration</div>
 					</router-link>
 				</div>
-			</div></div>
+			</div>
+		</div>
 		  <div class="container">
 		  	<div style="height:120px;"></div>
 
@@ -113,7 +114,7 @@ export default {
 	text-shadow: 0 0 3px #000, 0 0 5px #000, 0 0 19px #000;
 }
 .dropbtn {
-	font-family:'gothic', Arial, Haettenschweiler, sans-serif;
+	font-family:'gothic', Arial, Helvetica, sans-serif;
     background-color: #0079C1;
     color: white;
 	margin : 5px 0px 0px 0px;
@@ -122,7 +123,7 @@ export default {
     border: none;
 }
 .sidebtn {
-	font-family:'gothic', Arial, Haettenschweiler, sans-serif;
+	font-family:'gothic', Arial, Helvetica, sans-serif;
     background-color: #0079C1;
     color: white;
 	margin : 5px 0px 0px 0px;

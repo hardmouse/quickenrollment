@@ -81,8 +81,7 @@ learning and uptake.  With this in mind, you will be assigned a QE expert that w
 <li>edit the Information and Important Next Steps page</li>
 <li>edit your legal waiver</li>
 <li>edit your privacy statement</li>
-<li>edit content for automated system emails such as Acceptance, Conditional Acceptance,</li>
-Denial, Event Reminder and Payment Reminder emails</li>
+<li>edit content for automated system emails such as Acceptance, Conditional Acceptance, Denial, Event Reminder and Payment Reminder emails</li>
 <li>edit automatic Open and Close registration dates</li>
 </ul>
 
@@ -535,7 +534,7 @@ h5{
 	font-size: 14px;
 }
 .dropbtn {
-	font-family:'gothic', Arial, Haettenschweiler, sans-serif;
+	font-family:'gothic', Arial, Helvetica, sans-serif;
     background-color: #DDD;
     color: #0079C1;
 	margin : 5px 0px 0px 0px;
@@ -544,7 +543,7 @@ h5{
     border: none;
 }
 .sidebtn {
-	font-family:'gothic', Arial, Haettenschweiler, sans-serif;
+	font-family:'gothic', Arial, Helvetica, sans-serif;
     background-color: #DDD;
     color: #0079C1;
 	margin : 5px 0px 0px 0px;

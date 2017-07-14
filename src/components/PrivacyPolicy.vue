@@ -109,6 +109,6 @@ export default {
 
 <style scoped>
 .psi{
-	font-family:'gothic', Arial, sans-serif;
+	font-family:'gothic', Arial, Helvetica, sans-serif;
 }
 </style>

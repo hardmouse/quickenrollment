@@ -202,7 +202,7 @@ h5{
 	font-size: 14px;
 }
 .dropbtn {
-	font-family:'gothic', Arial, Haettenschweiler, sans-serif;
+	font-family:'gothic', Arial, Helvetica, sans-serif;
     background-color: #DDD;
     color: #0079C1;
 	margin : 5px 0px 0px 0px;
@@ -211,7 +211,7 @@ h5{
     border: none;
 }
 .sidebtn {
-	font-family:'gothic', Arial, Haettenschweiler, sans-serif;
+	font-family:'gothic', Arial, Helvetica, sans-serif;
     background-color: #DDD;
     color: #0079C1;
 	margin : 5px 0px 0px 0px;
@@ -230,7 +230,7 @@ h5{
 }
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
-	font-family:'gothic', Arial, Haettenschweiler, sans-serif;
+	font-family:'gothic', Arial, Helvetica, sans-serif;
     position: relative;
     display: inline-block;
 	/*border-bottom: 3px solid #095b8c;*/

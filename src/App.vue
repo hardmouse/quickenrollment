@@ -68,7 +68,7 @@
             <div class="col-md-4 col-xs-12">
                   <p class="footerTextTitle">ABOUT</p>
                   <router-link to="/Products-RMS?page=testimonials">Testimonials</router-link><br>
-                  <router-link to="/aboutUs">FAQs</router-link><br>
+                  <router-link to="/Support">FAQs</router-link><br>
                   <router-link to="/PrivacyPolicy">Privacy Policy</router-link><br>
                   <br><br>
             </div>
@@ -95,13 +95,16 @@
      <div class="bottomFooter">
 	    <div class="row footerLogoText">
 			  <div class="col">
+			    <img src="./assets/footerImages/omha.gif" class="img-thumbnail" width="50"><br>ONTARIO MINOR HOCKEY ASSOCIATION
+		    </div>
+			  <div class="col">
 			    <img src="./assets/footerImages/hc_logo.jpg" class="img-thumbnail" width="50"><br>HOCKEY CANADA
 		    </div>
 			  <div class="col">
 			    <img src="./assets/footerImages/gthlfoot.gif" class="img-thumbnail" width="50"><br>GREATER TORONTO HOCKEY LEAGUE
 		    </div>
 			  <div class="col">
-			    <img src="./assets/footerImages/news_alliance.jpg" class="img-thumbnail"><br>Alliance Hockey
+			    <img src="./assets/footerImages/news_alliance.jpg" class="img-thumbnail"><br>ALLIANCE HOCKEY
 		    </div>
 			  <div class="col">
 			    <img src="./assets/footerImages/spoLogoSMALL.gif" class="img-thumbnail"><br>SLO-PITCH ONTARIO
@@ -259,7 +262,7 @@ export default {
   top: 0;
   z-index: 10;
   width: 100%;
-  font-family:'gothic', Arial, sans-serif;
+  font-family:'gothic', Arial, Helvetica, sans-serif;
   border:#0F0 0px solid;
 }
 .topnav-item {
@@ -325,14 +328,14 @@ export default {
   margin-top:10px;
 }
 .bodyText{
-  font-family: 'gothic';
+  font-family: 'gothic', Arial, Helvetica, sans-serif;
 	position:static;
 	font-size:16px;
 	border: 0px solid #F00;
 	/*height: 300px;*/
 }
 .titleText{
-  font-family: 'gothic';
+  font-family: 'gothic', Arial, Helvetica, sans-serif;
 	margin: 20px 0px 10px 0px;
   line-height: 24px;
 	font-weight:bold;
@@ -411,7 +414,7 @@ export default {
 }
 .footerText{
   font-size:15px;
-  font-family: 'gothic';
+  font-family: 'gothic', Arial, Helvetica, sans-serif;
 }
 .footerLogoText{
   font-size:10px;
@@ -422,9 +425,20 @@ export default {
 .back2Prod{
   padding: 0px 20px 0px 20px;
   margin-top:10px;
-  font-family:'gothic', Arial;
+  font-family:'gothic', Arial, Helvetica, sans-serif;
   background-color:#555;
   color:#FFF;
+  cursor:pointer;
+}
+.back2Admin{
+  padding: 10px 20px 10px 20px;
+  border-radius: 7px;
+  margin-top:10px;
+  font-family:'gothic', Arial, Helvetica, sans-serif;
+  background-color:#555;
+  color:#FFF;
+  width:200px;
+  cursor:pointer;
 }
 .bottomFooter{
   color:#555;

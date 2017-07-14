@@ -42,7 +42,7 @@ No more chasing fees. Keep control with the industry’s first integrated and de
       </div>
       <div class="col-md-4 col-sm-12 supportContent">
         <img src="../assets/are.png" class="supportImage">
-<h5 class="yellowText">Automate Reminder Emails</h5>
+<h5 class="yellowText">Automated Reminder Emails</h5>
 <p>
 Offering Cheque or Cash payments? Let our Accounts Receivable Automated Emails chase fees without any efforts by you! Need to remind members of important information prior to your event? Reminder Auto Emails make sure your members are fully informed at just the right time!
 </p>
@@ -176,7 +176,7 @@ export default {
 .contentBody{
   margin-top:30px;
   margin-bottom:30px;
-	font-family:'gothic', Arial, sans-serif;
+	font-family:'gothic', Arial, Helvetica, sans-serif;
   text-align:left;
   
 }
@@ -193,7 +193,7 @@ export default {
   padding-bottom:12px;
 }
 .quoteBodyText{
-	font-family:'gothic', Arial, sans-serif;
+	font-family:'gothic', Arial, Helvetica, sans-serif;
   margin-left: 15px;
   width: 100%;
   color: #FFF;

@@ -31,9 +31,9 @@
 								</p>
 								<h5 class="yellowText">Registration (RMS)</h5>
 								<p>
-								QuickEnrollment has provided industry leading online Registration Management Software (RMS) to a variety of amateur sports organizations across Canada since 1999. Our sixth generation RMS “Q6” is a highly automated, robust system that addresses all aspects of an intuitive and efficient online platform. Clients have reported an average reduction of registration related work efforts of 60%. <router-link to="/Products-RMS">Click Here</router-link> overviw for more information on Q6 RMS.
+								QuickEnrollment has provided industry leading online Registration Management Software (RMS) to a variety of amateur sports organizations across Canada since 1999. Our sixth generation RMS “Q6” is a highly automated, robust system that addresses all aspects of an intuitive and efficient online platform. Clients have reported an average reduction of registration related work efforts of 60%. <router-link to="/Products-RMS">Click Here</router-link> for more information on Q6 RMS.
 								</p><p>
-								Q6 may operate as a stand-alone platform that address all registration needs of an individual organization or integrated with third party software such as a governing body management system to provide a truly powerful end-to-end registration experience at all levels.
+								Q6 may operate as a stand-alone platform that addresses all registration needs of an individual organization or integrated with third party software such as a governing body management system to provide a truly powerful end-to-end registration experience at all levels.
 								</p><p>
 								Do you have specialized needs? No problem! Our experts will work with you to satisfy your needs.
 								</p><h5 class="yellowText">
@@ -65,7 +65,7 @@
 								<p>The HCR system is provided to all amateur hockey leagues/clubs as well as all provincial governing bodies across Canada. In 2006 Hockey Canada approached QE to pioneer end-to-end credit card logistics and services integrated with their HCR online registration management software nation wide.
 								</p>
 								<p>
-								Close cooperation between Hockey Canada and QE resulted in the successful integration ad implementation of the following services and products:
+								Close cooperation between Hockey Canada and QE resulted in the successful integration and implementation of the following services and products:
 								</p>
 								<ul>
 								<li>Credit card rate negotiations</li>

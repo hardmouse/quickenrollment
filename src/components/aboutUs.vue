@@ -6,7 +6,7 @@
             <div class="container"><div class="headerfont">{{title}}</div></div>
           </div>
           <div class="container bodyContainer">
-            <div class="col-xs-12 bodyText bodytext">
+            <div class="col-xs-12 bodyText">
               <img src="../assets/building.jpeg" class="img-responsive" style="float:left; margin-right:15px;">
               <p>
                <strong>QuickEnrollment Inc.</strong> (“QE”) was first established in September 1999, in an effort to streamline the registration process in such a way that would provide a quick and easy alternative to traditional, paper-based methods of registration. With the development and implementation of QE-RMS (Registration Management Software), parents and registrants were provided with a fast and simple registration process, and administrators with an uncomplicated database that would satisfy all their player management, informational and communicative needs, while remaining user-friendly and straightforward. (<router-link to="/Products-RMS">details</router-link>).
