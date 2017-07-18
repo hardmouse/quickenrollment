@@ -97,12 +97,18 @@ export default {
       body: 'proven, powerful, professional',
       show: true,
       qc:0,
-      homeImage: ["https://www.quickenrollment.com/home/assets/banner1.jpg",
-      "https://www.quickenrollment.com/home/assets/baseball2.jpg",
-      "https://www.quickenrollment.com/home/assets/soccer1.jpg",
-      "https://www.quickenrollment.com/home/assets/ska.jpg",
-      "https://www.quickenrollment.com/home/assets/swm.jpg",
-      "https://www.quickenrollment.com/home/assets/basketball.jpg"],
+      homeImage: ["home/assets/banner1.jpg",
+      "home/assets/baseball2.jpg",
+      "home/assets/soccer1.jpg",
+      "home/assets/ska.jpg",
+      "home/assets/swm.jpg",
+      "home/assets/basketball.jpg"],
+      // homeImage: ["http://quickenrollment.com/home/assets/banner1.jpg",
+      // "http://quickenrollment.com/home/assets/baseball2.jpg",
+      // "http://quickenrollment.com/home/assets/soccer1.jpg",
+      // "http://quickenrollment.com/home/assets/ska.jpg",
+      // "http://quickenrollment.com/home/assets/swm.jpg",
+      // "http://quickenrollment.com/home/assets/basketball.jpg"],
       currentText:"",
       quoteText:[
         "Hockey Canada has been extremely pleased with the work of QuickEnrollment and feels that they provide the best service at the best price for our needs.<br><br><i>Jonah McEachern, Director of Operations</i><br><b>Hockey Canada</b>",
@@ -146,8 +152,7 @@ export default {
 }
 .myTitle {
   margin-top:30%;
-	/*font-family: 'myFont';*/
-	font-family: 'myFont', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-family: 'qeFont', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   text-align: left;
   opacity: 0.8;
   filter: alpha(opacity=80);
@@ -161,7 +166,7 @@ export default {
 }
 .myBodyText {
   white-space: nowrap;
-	font-family: 'myFont', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-family: 'qeFont', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   text-align: left;
   margin-left: 10px;
   border: 0px solid #0F0;

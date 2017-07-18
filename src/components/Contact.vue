@@ -8,7 +8,6 @@
           </div>
           <div class="container bodyContainer" style="margin-top:0px;">
 
-					<div class="row" style="padding:0px;margin:0px;">
 
 						<div class="row" style="margin-bottom:50px;">
 							<section class="col-md-4 col-xs-12">
@@ -41,7 +40,6 @@
 						</div>
 
 					
-	    			</div>
 
 	    </div>
 

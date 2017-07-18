@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faq>
+   <list>
+      <que>I want to register my child for…(hockey, soccer, baseball, etc.), how do I do this? </que>
+      <ans><![CDATA[First, your organization needs to be a client of QuickEnrollment in order to have their registration form on the QuickEnrollment System and provide this convenient service to you. If this is not the case, then send us an email of the association you belong to and we'll do our best to get in touch with someone at the association.
+      
+      If your association IS a client of QuickEnrollment and you've been instructed that QuickEnrollment is providing online registration services for your convenience, you should go to your associations website and find out more about how to register online. In most cases, your association will provide a link to the registration system.
+      
+      If your association does NOT have a website, you need to contact the president or registrar of your association and get the QuickWord that you need in order to enter the registration system and register your participant. QuickEnrollment is not responsible for giving out passwords to participants. The QuickWord™ is initially assigned to the administrator, by QuickEnrollment, and is to be then given by the administrator to the participant.]]></ans>
+   </list>
+   <list>
+      <que>Is my information safe and who has access to it?</que>
+      <ans><![CDATA[Security of your information is a major priority at QE. We utilize the highest available encryption levels in the industry. Our servers operate behind enterprise level firewalls and are frequently scanned to safeguard against any possible intrusions. The scanning engine tests for more than 3,000 vulnerabilities in a single scan. Databases are frequently backed up both on site and off site. Your information is accessed by your organization’s administrators only for the sole purpose of operating the events and programs offered. At no time is your information provided to any third party for marketing or any other purposes by QE.]]>
+      </ans>
+   </list>
+   <list>
+      <que>What is a QE Security Profile and why do I have to create one?</que>
+      <ans><![CDATA[There are three purposes for the creation of a QE Security Profile. ONE: your information is further protected by means of ID and Password that you create. TWO: you will be able to access your profile to view your registration status, payment status, edit your information, change your password, access payment receipts (including Child Tax Credit Receipt) and change your payment method. THREE: stores your information to prefill your registration forms during future visits and enables the ability to provide automated discounts such as family volume and multiple program discounts.
+      <br><br>
+      You will only be required to create your QE Security Profile once if you have never used QE to register in the past.]]></ans>
+   </list>
+   <list>
+      <que>Do I have to create a different QE Security Profile for each organization I register in?</que>
+      <ans><![CDATA[NO. You will only be required to create your QE Security Profile once if you have never used QE to register in the past. If you have used QE to register with any organization you may use the same profile to register with any programs offered by any QE client.]]>
+      </ans>
+   </list>
+   <list>
+      <que>How do I change my password for my QE Security Profile? </que>
+      <ans><![CDATA[You are able to change your password within your QE Security Profile. You are also able to change your security questions. ]]></ans>
+   </list>
+   <list>
+      <que>I selected Cheque payment when I registered. Can I change it to payment by Credit Card?</que>
+      <ans><![CDATA[YES. Simply access your QE Security Profile and click on the credit card symbol located at the bottom. You will be able to pay fees owed immediately through Visa or MasterCard. ]]></ans>
+   </list>
+   <list>
+      <que>My child qualifies for the Child Tax Credit. How do I access a receipt?</que>
+      <ans><![CDATA[You may access a receipt to be submitted to claim the Child Tax Credit through your QE Security Profile. Simply click on the Invoices/Receipts link located at the bottom of your profile and select the receipt you wish to print. <b>TIP:</b> be sure to access your profile from the registration link of the organization you wish the receipt from.]]></ans>
+   </list>
+   <list>
+      <que>I received an Accounts Receivable Email. Why am I receiving this?</que>
+      <ans><![CDATA[The QE registration system has the ability to send automated emails to those members that have yet to pay in full. If you are receiving this email it is because your organization has enabled this feature and according to their records full payment has yet to be received. If you have sent payment then disregard the email as your organization may have yet to enter the payment into the system. Once the payment has been entered, the system will cease sending these emails. You may contact your organization should you wish further information.]]></ans>
+   </list>
+   <list>
+      <que>How do I know if I’ve been accepted for the program/event that I registered in?</que>
+      <ans><![CDATA[Once your registration status has been determined by your organization you will receive an official status email from them. The possible registration status email that you may receive include accepted, conditionally accepted and denied.]]></ans>
+   </list>
+</faq>
+

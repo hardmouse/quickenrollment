@@ -57,22 +57,10 @@
               <div style=height:5px;></div>
               </li>
             </ul>
-
-<!--<div class="titleText">FAQ style 2:</div>
-<ul class="faqListStyle">
-  <li v-for="(sas, mykey) in this.faqlist2.faq.list">
-	<div class="row">
-    <div v-html="sas.que[0]" class="col-md-5 col-xs-12 style2Title" @click="onExpandFAQ2(mykey)"></div>
-	<div v-html="sas.ans[0]" class="col-md-7 col-xs-12 style2body"></div>
-	<div class="col-12"><hr></div>
-	</div>
-  </li>
-</ul>-->
-
             </div>
         </div>
       </div>
-<img class="bg" src="../assets/longImage.jpeg" />
+<img class="bg" src="../assets/longImage.jpg" />
 </div>
 </template>
 

@@ -51,7 +51,7 @@
 
     <router-view></router-view>
 
-     <div class="myFooter">
+     <div class="qeFooter">
        <div class="container">
           <div class="row footerText">
             <div class="col-md-4 col-xs-12">
@@ -122,6 +122,7 @@ export default {
   name: 'app',
   data(){
     return {
+      mainPath:"http://quickenrollment.com/",
       prodEnabled:false,
       qWord: '',
       activeTab: '',
@@ -153,15 +154,6 @@ export default {
         text: 'Events',
         value: 'https://www.quickenrollment.com/qe_client_member/qeSearch/event_locations.asp'
       },
-      // {
-      //   text: 'Affiliation',
-      //   value: 'affiliation'
-      // },
-      // {
-      //   text: 'Disabled',
-      //   value: 'disabled',
-      //   disabled: true
-      // }
       ],
     }
   },
@@ -395,7 +387,7 @@ export default {
   height:70px;
   filter: alpha(opacity=100); /* For IE8 and earlier */
 }
-.myFooter{
+.qeFooter{
   color:#FFF;
   margin:0px;
   padding:60px 20px 60px 90px;
@@ -560,7 +552,6 @@ img {
   }
 }
 
-
 .bkImage{
   position: relative;
   opacity: 1;
@@ -570,7 +561,7 @@ img {
   height: 90%;
 }
 .serviceImage {
-  background-image: url('https://www.quickenrollment.com/home/assets/golf.jpg');
+  background-image: url('./assets/golf.jpg');
   background-position: center center;
   background-size: cover;
   height: 80%;
@@ -578,12 +569,12 @@ img {
 }
 
 @font-face {
-    font-family: 'myFont';
-    src: url('https://www.quickenrollment.com/home/assets/fonts/mimicimpact.ttf');
+    font-family: 'qeFont';
+    src: url('./assets/fonts/mimicimpact.ttf');
 }
 @font-face {
     font-family: 'gothic';
-    src: url('https://www.quickenrollment.com/home/assets/fonts/gothic.ttf');
+    src: url('./assets/fonts/gothic.ttf');
 }
 .white{
 	color: #0079C1;
@@ -592,7 +583,7 @@ img {
   font-size: 36px;
   font-size: 8vw;
 	padding-top:  80px;
-	font-family: 'myFont', Arial, Helvetica, sans-serif;
+	font-family: 'qeFont', Arial, Helvetica, sans-serif;
   text-shadow: 0 0 8px #FFF, 0 0 19px #FFF;
 }
 .headerfont{

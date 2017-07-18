@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faq>
+   <list>
+      <que>How do I pay my fee through OFCS?</que>
+      <ans><![CDATA[You will be presented with a processing page during your registration process. Simply enter your credit card details and submit. Once successful you will be presented with a receipt to print as well as emailed a copy. The name of the organization you are registering in will appear on your credit card statement.]]></ans>
+   </list>
+   <list>
+      <que>Is there a cost to me to pay by credit card?</que>
+      <ans><![CDATA[There are no charges to the cardholder above and beyond charges that are levied by your bank on any other purchases you normally make through your credit card.]]>
+      </ans>
+   </list>
+   <list>
+      <que>What do I do should I wish a refund?</que>
+      <ans><![CDATA[Contact the organization directly or arrange refunds for any purchases made. QuickEnrollment is unable to process refunds on behalf of your organization.]]></ans>
+   </list>
+   <list>
+      <que>My credit card was denied. Why?</que>
+      <ans><![CDATA[The issuing bank is responsible for the approval or denial of credit card transactions. There are several reasons in which a transaction may be denied including expired card, limit exceeded or unauthorized use. Please contact your issuing bank to enquire as to the reason for the denial. ]]>
+      </ans>
+   </list>
+   <list>
+      <que>How safe is it to use my credit card online?</que>
+      <ans><![CDATA[QE-OFCS online transactions are safeguarded with the highest encryption levels commercially available. Critical credit card information is never stored within our servers which are frequently scanned to safeguard against any possible intrusions. The scanning engine tests for more than 3,000 vulnerabilities in a single scan.]]>
+      </ans>
+   </list>
+</faq>
+
