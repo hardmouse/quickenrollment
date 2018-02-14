@@ -3,13 +3,13 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import Vue2Filters from 'vue2-filters'
+// import Vue2Filters from 'vue2-filters'
 import BootstrapVue from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 Vue.use(BootstrapVue)
-Vue.use(Vue2Filters)
+// Vue.use(Vue2Filters)
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
@@ -19,3 +19,4 @@ new Vue({
   template: '<App/>',
   components: { App },
 })
+// 

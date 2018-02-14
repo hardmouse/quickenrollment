@@ -103,15 +103,17 @@ export default {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.7);
 }
 .productBoxTitle{
-	font-size: 42px;
+	font-family:'gothic', Arial, Helvetica, sans-serif;
+	font-size: 52px;
 	font-weight: bold;
 	color:#FFF;
-	text-shadow: 0 0 8px #000, 0 0 19px #000;
+	text-shadow: 0 0 2px #000, 0 0 2px #000, 0 0 3px #000,0 0 8px #000, 0 0 19px #000;
 }
 .productBoxBody{
-	font-size: 14px;
+	font-family:'gothic', Arial, Helvetica, sans-serif;
+	font-size: 16px;
 	color:#FFF;
-	text-shadow: 0 0 3px #000, 0 0 5px #000, 0 0 19px #000;
+	text-shadow: 0 0 2px #000, 0 0 2px #000, 0 0 3px #000, 0 0 5px #000, 0 0 19px #000;
 }
 .dropbtn {
 	font-family:'gothic', Arial, Helvetica, sans-serif;

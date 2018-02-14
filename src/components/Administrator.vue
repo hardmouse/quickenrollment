@@ -9,22 +9,31 @@
             <div class="col-12" style="padding-top:20px;padding-bottom:20px;" v-if="this.currentSection==''">
                 <div class="row justify-content-around">
 
-                    <div class="col-md-3 prodBox bgPad" @click.stop="goAdmin('Q6')">
+                    <!--<div class="col-md-3 prodBox bgPad" @click.stop="goAdmin('Q6')">-->
+                   <!--<a href="https://www.quickenrollment.com/qe_login/qeLoginClient/login.aspx" target="_blank">   -->
+                    <div class="col-md-3 prodBox bgPad">
+                      <a href="https://www.quickenrollment.com/qe_login/qeLoginClient/login.aspx" target="_blank">
                         <img src="../assets/q6.png">
                         <div class="productBoxTitle">Registration Management Software​</div>
                         <div class="productBoxBody">Online registration management tools​ and reporting.​</div>
+                        </a>
                     </div>
+                   <!--</a>-->
 
-                    <div class="col-md-3 prodBox bgPad" @click.stop="goAdmin('OFCS')">
+                    <!--<div class="col-md-3 prodBox bgPad" @click.stop="goAdmin('OFCS')">-->
+                  <!--<a href="https://www.quickenrollment.com/ofcs/client/League/client/login/login.aspx" target="_blank">-->
+                    <div class="col-md-3 prodBox bgPad">
+                      <a href="https://www.quickenrollment.com/ofcs/client/League/client/login/login.aspx" target="_blank">
                          <img src="../assets/ofcs.png">
                         <div class="productBoxTitle">Online Fee Collection Services​</div>
                         <div class="productBoxBody">Credit card processing management tools​ and reporting.​</div>
+                        </a>
                     </div>
-
+                  <!--</a>-->
                 </div>
             </div>
         </transition>
-
+<!--
           <transition name="slide-fade">
             <div class="container" v-if="this.currentSection=='Q6'">
                 <iframe src="https://www.quickenrollment.com/qe_login/qeLoginClient/login.aspx" width="100%" height="500" scrolling="no" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -37,7 +46,7 @@
             <iframe src="https://www.quickenrollment.com/ofcs/client/League/client/login/login.aspx" width="100%" height="500" scrolling="no" frameborder="0" style="border:0" allowfullscreen></iframe>
                 <div class="back2Admin" @click.stop="goAdmin('')">&#8920; back to Admin</div>
             </div>
-          </transition>
+          </transition>-->
 
 	    <div class="container"><div style="height:120px;"></div></div>
         </div>
