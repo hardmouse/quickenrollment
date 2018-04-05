@@ -88,7 +88,6 @@ Teams registered and paid in minutes! Track and manage team registration. Real-t
   
 </template>
   
-
 <script>
 export default {
   data () {
@@ -97,12 +96,12 @@ export default {
       body: 'proven, powerful, professional',
       show: true,
       qc:0,
-      homeImage: ["assets/banner1.jpg",
-      "assets/baseball2.jpg",
-      "assets/soccer1.jpg",
-      "assets/ska.jpg",
-      "assets/swm.jpg",
-      "assets/basketball.jpg"],
+      homeImage: ["static/images/banner1.jpg",
+      "static/images/baseball2.jpg",
+      "static/images/soccer1.jpg",
+      "static/images/ska.jpg",
+      "static/images/swm.jpg",
+      "static/images/basketball.jpg"],
       currentText:"",
       quoteText:[
         "Hockey Canada has been extremely pleased with the work of QuickEnrollment and feels that they provide the best service at the best price for our needs.<br><br><i>Jonah McEachern, Director of Operations</i><br><b>Hockey Canada</b>",
